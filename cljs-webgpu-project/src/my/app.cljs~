@@ -1,0 +1,4 @@
+(ns my.app)
+
+(defn ^:export init []
+  (js/console.log "Hello from ClojureScript! The GPU project is alive."))
